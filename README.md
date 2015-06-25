@@ -14,7 +14,7 @@ And then add the following lines to your `.zshrc`:
 source "$HOME/.antigen/antigen.zsh"
 antigen-use oh-my-zsh
 antigen-bundle arialdomartini/oh-my-git
-antigen theme picklesau/oh-my-git-themes picklesau-pathinline
+antigen theme pckls/oh-my-git-themes pckls-pathinline
 antigen-apply
 ```
 
