@@ -47,7 +47,7 @@ PROMPT='$(build_prompt)%{$fg_bold[green]%}%~
 %{$fg_bold[white]%}$ '
 #%{$fg_bold[white]%}∙ '
 
-RPROMPT='%{$reset_color%}%T %{$fg_bold[white]%} %n@%m%{$reset_color%}'
+#RPROMPT='%{$reset_color%}%T %{$fg_bold[white]%} %n@%m%{$reset_color%}'
 
 
 function custom_build_prompt {
