@@ -11,6 +11,7 @@ cd ~ && git clone https://github.com/zsh-users/antigen.git .antigen
 And then add the following lines to your `.zshrc`:
 
 ```
+source "$HOME/.antigen/antigen.zsh"
 antigen-use oh-my-zsh
 antigen-bundle arialdomartini/oh-my-git
 antigen theme picklesau/oh-my-git-themes picklesau-pathinline
