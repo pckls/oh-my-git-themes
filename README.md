@@ -12,10 +12,10 @@ And then add the following lines to your `.zshrc`:
 
 ```
 source "$HOME/.antigen/antigen.zsh"
-antigen-use oh-my-zsh
-antigen-bundle arialdomartini/oh-my-git
+antigen use oh-my-zsh
+antigen bundle arialdomartini/oh-my-git
 antigen theme pckls/oh-my-git-themes pckls-pathinline
-antigen-apply
+antigen apply
 ```
 
 Enjoy!
